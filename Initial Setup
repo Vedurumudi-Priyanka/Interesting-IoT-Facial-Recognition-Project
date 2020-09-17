@@ -1,0 +1,12 @@
+Set up your PC and Raspberry Pi 2 or 3, or MBM 
+Next, wire up the doorbell and power relay as shown below. The power relay will be used to lock and unlock the door.
+
+https://hackster.imgix.net/uploads/image/file/104713/Raspberry%20Pi%20Sketch.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+https://hackster.imgix.net/uploads/image/file/104712/Minnowboard%20Max%20Sketch%20Image.png?auto=compress%2Cformat&w=740&h=555&fit=max
+
+Now wire up the same power relay to the lock, or electric door strike, as shown below
+https://hackster.imgix.net/uploads/image/file/107787/DoorStrikeDiagramCrop.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+https://hackster.imgix.net/uploads/image/file/107795/Power%20Relay%20Image.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+https://hackster.imgix.net/uploads/image/file/107794/DoorStrikeImage.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+Plug in your USB webcam, keyboard, and mouse into your Raspberry Pi 2 or MBM.
