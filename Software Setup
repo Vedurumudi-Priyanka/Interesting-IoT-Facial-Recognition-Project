@@ -1,0 +1,14 @@
+Use Command Prompt to navigate to the folder where you want the project:
+cd <your folder path>
+Open the FacialRecognitionDoor.sln solution file, in the FacialRecognitionDoor folder you just downloaded, using Visual Studio 2015.
+On the right panel, under the "FacialRecognitionDoor" project, navigate to the Constants.cs file. You should see a section at the top entitled "General Constants". The first thing you need to do here is enter your Oxford API key. Follow the instructions here to acquire your key.
+Replace OXFORD_KEY_HERE with your new key:
+https://hackster.imgix.net/uploads/image/file/107780/ConstantsAPIKeyScreenshot.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+ONLY FOR MINNOWBOARD MAX: Switch the DisableLiveCameraFeed variable from true to false:
+https://hackster.imgix.net/uploads/image/file/107782/Facial-Recognition-Door_Constants_cs_at_develop_%C2%B7_ethankusters_Facial-Recognition-Door.png?auto=compress%2Cformat&w=740&h=555&fit=max
+On the top menu of Visual Studio, select Debug and ARM if you are using a Raspberry Pi. If you're using an MBM, select Debug and x86.
+https://hackster.imgix.net/uploads/image/file/107677/cs-remote-machine-debugging.png?auto=compress%2Cformat&w=740&h=555&fit=max
+Press Remote Machine. In the "Remote Connections" dialog you will have to enter your Remote Machine IP address and use "Universal (Unencrypted Protocol)" for Authentication Mode
+Use WindowsIoTCoreWatcher to find your IP address.
+https://hackster.imgix.net/uploads/image/file/107679/cs-remote-connections.PNG?auto=compress%2Cformat&w=740&h=555&fit=max
+You can now run the code! Press the Remote Machine button with the green "play" arrow.
