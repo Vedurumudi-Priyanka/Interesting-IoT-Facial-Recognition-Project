@@ -1,0 +1,36 @@
+The following screenshots were taken on a PC that was set up to act as a Raspberry Pi would.
+
+When you first run the project, this is the screen you should see. On an MBM you would have set the DisableLiveCameraFeed variable to false in step 6 of Software Setup and instead of seeing the camera icon, you would see a live feed of what the camera is seeing.
+
+https://hackster.imgix.net/uploads/image/file/107693/FirstScreenAnnotated.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+Now Click + Symbol at bottom
+
+There are three buttons located on the bottom app bar. The first is a "plus" icon.
+This is used to add a new user to your "whitelist." Any user on the whitelist is essentially marked as a "friend" and allowed to unlock the door using their face. 
+Try pressing the "plus" button now. You should see this screen:
+https://hackster.imgix.net/uploads/image/file/107696/SecondScreenAnnotated.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+Position yourself or a friend in front of the webcam and press the Capture ID Photo button. You should see this screen with your newly captured selfie:
+
+https://hackster.imgix.net/uploads/image/file/107698/ThirdScreenAnnotation.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+If you're happy with the photo, enter the name of the person in the photo and press Confirm. If not, just press Cancel and take another photo.
+
+After pressing Confirm, you will be sent back to the main page, but you will now see a user under the Whitelisted Visitors section:
+https://hackster.imgix.net/uploads/image/file/107694/FourthScreenAnnotated.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+Click on that user's image in the upper-left corner of the page to navigate to that user's profile page:
+
+https://hackster.imgix.net/uploads/image/file/107700/SixthScreenAnnotated.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+On this page, you can use the plus icon to add more photos as we have done.
+This will improve the overall accuracy of the facial recognition door. 
+You can also press the trashcan icon to delete this user. When you're finished, press the home icon.
+
+https://hackster.imgix.net/uploads/image/file/107699/FourthScreenAnnotatedNew.jpg?auto=compress%2Cformat&w=740&h=555&fit=max
+
+You're now ready to unlock the door! Position the registered user in front of the webcam and press either the virtual door icon (located next to the previously used plus icon) or the physical "doorbell" button you wired up. 
+You should hear audio feedback informing you that the door has been unlocked!
+
+Now try pressing the doorbell button when an unregistered user is in front of the door.
+You should hear audio feedback informing you that the door has detected a stranger and will not unlock!
